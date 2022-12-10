@@ -1,0 +1,19 @@
+
+ <body>
+    <div *ngIf="display">
+        <table class="table">
+            <tr *ngFor="let ele of cerinte">
+                <td>{{ele.nrCerinta}}</td>
+                <td>{{ele.Cerinta}}</td>
+            </tr>
+        </table>
+    </div>
+    <div class="topbar">
+        <img src="assets/image/angular-logo.svg" class="cimage">
+        <img src="assets/image/imagec.png" class="c2image">
+        <h1 class="header-1" >Tema Laborator 1</h1>
+        <p>Practica CST</p>
+        <button (click)="changeDisplay()">Cerinte</button>
+    </div>
+    
+ </body>

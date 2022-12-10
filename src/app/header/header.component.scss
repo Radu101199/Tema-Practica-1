@@ -1,0 +1,85 @@
+.topbar{
+    background-color: #1e0e20;
+    width: 99%;
+    margin-top: -10px;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 30px;
+    height: 400px;
+    
+}
+
+  
+  .cimage{
+    width: 100px;
+    position: absolute;
+    top: 40px;
+    left: 18px;
+  }
+  .c2image{
+    width: 400px;
+    position: absolute;
+    right: 150px;
+    top: 90px;
+    border-radius: 50%;
+
+  }
+
+  h1{
+    position: absolute;
+    color:transparent;
+    background-clip: text;
+    font-family: "Asap", sans-serif;
+    font-size:1.5cm;
+    top: 10%;
+    left: 27%;
+  }
+
+  .header-1{
+    background-image: repeating-linear-gradient(to right, #869c69, #cb0323 10%, #869c69 20%);
+  }
+
+  p{
+    position: absolute;
+    top: 20%;
+    left: 27%;
+    font-size: 1cm;
+    color: #869c69;
+  }
+
+  button{
+    position: relative;
+    top: 75%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #869c69;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    
+  }
+
+  button:hover{
+    background-color: #72553f;
+    transition: 0.25s ease-in;
+  }
+
+  table{
+    position:absolute;
+    top:37%;
+    left:35%;
+    font-family: "Asap", sans-serif;
+    font-size: 0.4cm;
+    color:transparent;
+    background-clip: text;
+    
+  }
+  
+  .table{
+    background-image: repeating-linear-gradient(to right, #869c69, #cb0323 10%, #869c69 20%);
+  }
+
